@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
+
+
+body {
+  background-color: #F9EBC8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #141E27;
+  font-family:'Bangers', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family:'Bangers', cursive;;
+  color: #203239;
+  text-align: center;
+}
+
+p {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  height: 350px;
+  width: 316px;
+  border-radius: 50%;
+  box-shadow: 44px 43px 60px rgba(0, 0, 0, 0.1);
+  border: 5px solid #DAE5D0
+
+}
+
+ul{
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.banner-profile {
+  color: rgb(17, 16, 16);
+  box-shadow: 44px 43px 60px rgba(0, 0, 0, 0.1);
+  background-color: #FEFBE7;
+  margin: 20px 0px;
+  padding: 60px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.buttons{
+  list-style: none;
+  padding-left: 11px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 65px;
+}
+
+.buttons{
+  background-color: #DAE5D0;
+  padding: none;
+  border-radius: 25px;
+}
+
+.fab{
+  color: #EEED;
+  padding: 5px;
+}
+
+.insta_link{
+ background-color:#DAE5D0;
+}
+
+.buttons :hover{
+  color: #203239;
+}
+
+.insta_link :hover{
+  color: #203239;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
